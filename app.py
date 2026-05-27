@@ -6,10 +6,7 @@ import os
 st.title("Conversión de Texto a Audio")
 
 # IMAGEN
-st.image(
-    "https://media.tenor.com/8N9MmpQF0PYAAAAC/frog-funny.gif",
-    width=250
-)
+st.image("fabula.jpg", width=350)
 
 # SUBTÍTULO
 st.subheader("Una pequeña fábula.")
