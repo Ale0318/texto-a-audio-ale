@@ -11,23 +11,19 @@ st.image(
     width=250
 )
 
-# DESCRIPCIÓN
+# SUBTÍTULO
 st.subheader("Una pequeña fábula.")
 
-st.write(
-texto = st.text_area(
-    
-"Érase una vez una liebre muy veloz que presumía de ello ante todos los animales del bosque. Un día, se encontró con una tortuga que caminaba muy despacio. La liebre se burló de su lentitud.
+# TEXTO DE LA FÁBULA
+st.write("""
+Érase una vez una liebre muy veloz que presumía de ello ante todos los animales del bosque. Un día, se encontró con una tortuga que caminaba muy despacio. La liebre se burló de su lentitud.
 
 —Hagamos una carrera y veamos quién gana —propuso la tortuga.
 
 Al empezar la carrera, la liebre salió disparada, mientras que la tortuga avanzó lentamente. Al ver que sacaba una gran ventaja a la tortuga, la liebre se paró en un árbol a descansar. La tortuga siguió avanzando, poco a poco y sin detenerse.
 
-Cuando la liebre despertó, vio angustiada que la tortuga estaba a punto de llegar a la meta. La liebre corrió y corrió, pero fue demasiado tarde. La tortuga cruzó la meta, agotada pero feliz.",
-
-height=250
-)"
-)
+Cuando la liebre despertó, vio angustiada que la tortuga estaba a punto de llegar a la meta. La liebre corrió y corrió, pero fue demasiado tarde. La tortuga cruzó la meta, agotada pero feliz.
+""")
 
 # CAJA DE TEXTO
 texto = st.text_area(
